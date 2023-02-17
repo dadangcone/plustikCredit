@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PlustikCredit</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    
+    
+  <script type="module" crossorigin src="./assets/js/main-abc1ffd9.js"></script>
+  <link rel="stylesheet" href="./assets/css/main-c0270504.css">
+</head>
+
+<body>
+    
+<header class="header">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-5">
+                <a href="index.html" class="logo">
+                    <img src="./assets/images/logo-48faf661.png" class="img-fluid" alt="">
+                </a>
+            </div>
+            <div class="col-7 ">
+                <div class="nav justify-content-end align-items-center">
+                    <a href="#login" data-bs-toggle="modal" class="nav-link pe-1"><i class="ico ico-user me-1"></i> Login</a>
+                    <a class="nav-link px-0">/</a>
+                    <a href="#daftar" data-bs-toggle="modal" class="nav-link ps-1 pe-0">Daftar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Login -->
+<div class="modal fade" id="login" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body pt-0">
+                <p class="text-grey">
+                    Belum punya akun? <a href="#daftar" data-bs-toggle="modal">Daftar</a>
+                </p>
+
+                <form action="#">
+                    <div class="mb-3">
+                        <label class="label">Email</label>
+                        <input type="email" class="form-control" placeholder="Masukan alamat email">
+                    </div>
+                    <div class="mb-3">
+                        <label class="label">Password</label>
+                        <div class="input-icon right">
+                            <input type="password" class="form-control" placeholder="Masukan password Anda">
+                            <span class="input-group-text">
+                                <i class="ico ico-eye"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Login</button>
+
+                    <div class="auth-divider">
+                        <span>atau login dengan</span>
+                    </div>
+
+                    <a href="#" class="btn btn-outline-secondary google-auth w-100">
+                        <i class="ico ico-google"></i>
+                        Google
+                    </a>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Daftar -->
+<div class="modal fade" id="daftar" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Daftar Akun</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body pt-0">
+                <p class="text-grey">
+                    Sudah punya akun? <a href="#login" data-bs-toggle="modal">Login</a>
+                </p>
+
+                <form action="#">
+                    <div class="mb-3">
+                        <label class="label">Nama Lengkap</label>
+                        <input type="text" class="form-control" placeholder="Masukan nama lengkap Anda">
+                    </div>
+                    <div class="mb-3">
+                        <label class="label">Email</label>
+                        <input type="email" class="form-control" placeholder="Masukan alamat email">
+                    </div>
+                    <div class="mb-3">
+                        <label class="label">Nomor Ponsel</label>
+                        <input type="text" class="form-control" placeholder="Contoh: 0812345677890">
+                    </div>
+                    <div class="mb-3">
+                        <label class="label">Password</label>
+                        <div class="input-icon right">
+                            <input type="password" class="form-control" placeholder="Masukan password Anda">
+                            <span class="input-group-text">
+                                <i class="ico ico-eye"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="mb-3 text-grey text-13">
+                        Dengan mendaftar berarti Anda menyetujui <a href="#">Syarat & Ketentuan</a>
+                        yang ada di Plustik.id
+                    </div>
+                    <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                        data-bs-target="#success">Daftar Akun</button>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Success -->
+<div class="modal fade" id="success" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body pt-0">
+                <img src="./assets/images/checked-image-37f9bd02.svg" class="img-fluid" alt="">
+
+                <h3 class="title my-3">
+                    Kamu Berhasil Daftar Akun Plustik.id
+                </h3>
+                <p class="text-14">
+                    Kami telah mengirimkan email konfirmasi ke <b>akun@gmail.com,</b>
+                    lakukan konfirmasi email untuk dapat masuk ke akun Anda.
+                </p>
+                <div class="mt-4">
+                    <a href="#" class="btn btn-primary w-100">Ok, Cek Kotak Masuk Email</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="page-wrapper">
+    <div class="container overflow-hidden py-5">
+        <div class="row gx-5">
+            <div class="col-lg-6">
+                <div class="swiper hero-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="hero">
+                                <img src="./assets/images/hero-411dedb8.png" class="img-fluid" alt="">
+                                <div class="content-hero">
+                                    <span class="label-hero">DID YOU KNOW?</span>
+                                    <h1 class="hero-title">Volume sampah Jakarta dalam sehari setara, setengah Candi
+                                        Borobudur</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hero">
+                                <img src="./assets/images/hero-411dedb8.png" class="img-fluid" alt="">
+                                <div class="content-hero">
+                                    <span class="label-hero">DID YOU KNOW?</span>
+                                    <h1 class="hero-title">Volume sampah Jakarta dalam sehari setara, setengah Candi
+                                        Borobudur</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card card-shadow card-package">
+                    <div class="card-body">
+                        <h3 class="title">Pilihan produk</h3>
+                        <p class="text-grey">
+                            Ut odio laoreet lacinia nam mi nisl ac egestas eu. Magna cursus aliquam augue massa eu
+                            molestie ut sit in.
+                        </p>
+
+                        <form action="metode-bayar.html">
+                            <div class="package-checkbox">
+                                <input type="radio" id="opt1" name="pakcage">
+                                <label for="opt1">
+                                    <div>
+                                        <div class="package-title">PlusTik Credit Basic</div>
+                                        <div class="package-weight">Plustik Credit 4kg</div>
+                                    </div>
+                                    <div>
+                                        <div class="package-price">Rp 20rb/bln</div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="package-checkbox">
+                                <input type="radio" id="opt2" name="pakcage">
+                                <label for="opt2">
+                                    <div>
+                                        <div class="package-title">PlusTik Credit Silver</div>
+                                        <div class="package-weight">Plustik Credit 10kg</div>
+                                    </div>
+                                    <div>
+                                        <div class="package-price">Rp 50rb/bln</div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="package-checkbox">
+                                <input type="radio" id="opt3" name="pakcage">
+                                <label for="opt3">
+                                    <div>
+                                        <div class="package-title">PlusTik Credit Premium</div>
+                                        <div class="package-weight">Plustik Credit 20kg</div>
+                                    </div>
+                                    <div>
+                                        <div class="package-price">Rp 100rb/bln</div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="package-checkbox">
+                                <input type="radio" id="opt4" name="pakcage">
+                                <label for="opt4">
+                                    <div>
+                                        <div class="package-title">PlusTik Credit Platinum</div>
+                                        <div class="package-weight">Plustik Credit 40kg</div>
+                                    </div>
+                                    <div>
+                                        <div class="package-price">Rp 200rb/bln</div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="mt-3">
+                                <button type="submit" class="btn btn-primary w-100">Buy Credits</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+    
+    
+    
+    
+</body>
+
+</html>
